@@ -8,7 +8,6 @@ A simple project designed to study emit functions and basic CSS
 
 ```
 npm install
-
 ```
 
   
@@ -17,7 +16,6 @@ npm install
 
 ```
 npm run serve
-
 ```
 
   
@@ -26,5 +24,4 @@ npm run serve
 
 ```
 npm run build
-
 ```
