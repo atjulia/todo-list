@@ -22,41 +22,40 @@ export default {
 </script>
 
 <style>
- .task {
-  position: relative;
-  box-sizing: border-box;
-  width: 350px;
-  height: 150px;
-  padding: 10px;
-  border-radius: 8px;
-  font-size: 2rem;
-  font-weight: 300;
-  cursor: pointer;
-  user-select: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
+  .task {
+    position: relative;
+    box-sizing: border-box;
+    width: 900px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 2rem;
+    font-weight: 300;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .pending {
-    border-left: 12px solid darkred;
-    background-color: red;
+    border-left: 12px solid #af1d3f;
+    background-color: #eb3260;
   }
 
   .pending .close {
-    background-color: darkred;
+    background-color: #af1d3f;
 
   }
 
   .done {
-    color: #DDD;
-    border-left: 12px solid darkgreen;
-    background-color: green;
+    color: #fefefe;
+    border-left: 12px solid #0b895d;
+    background-color: #00c07d;
     text-decoration: line-through;
   }
 
   .done .close {
-    background-color: darkgreen;
+    background-color: #0b895d;
   }
 
   .close {

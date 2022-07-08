@@ -65,7 +65,7 @@ export default {
 	body {
 		font-family: 'Inter', sans-serif;
 		background: #17181E;
-		color: #FFF;
+		color: #fefefe;
 	}
 
 	#app {

@@ -28,7 +28,7 @@ export default {
 
   .form-element {
     outline: none;
-    font-size: 2rem;
+    font-size: 1rem;
     border: 1px solid #fff;
     padding: 5px 10px 8px;
     color: #FFF
